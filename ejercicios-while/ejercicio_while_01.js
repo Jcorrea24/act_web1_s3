@@ -3,9 +3,9 @@
 
 let contador = 20;
 
-while (numero >= 1) {
-  console.log(numero);
-  numero--;
+while (contador >= 1) {
+  console.log(contador);
+  contador--;
 }
 
 console.log("¡Despegue!");

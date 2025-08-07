@@ -1,3 +1,9 @@
-// Ejercicio For 1: Tabla de Multiplicar Completa
-// Usa ciclos for anidados para crear las tablas de multiplicar del 1 al 12. 
-// Presenta los resultados en formato de tabla organizada.
+
+// Tablas de multiplicar del 1 al 10
+for (let i = 1; i <= 10; i++) {
+    console.log(`\nTabla del ${i}:`);
+    console.log('-------------------');
+    for (let j = 1; j <= 10; j++) {
+        console.log(`${i} x ${j} = ${i * j}`);
+    }
+}
